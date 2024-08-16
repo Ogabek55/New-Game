@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  text-align: center;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.game_start_main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 61px;
+}
+.game_start_main_elements {
+  width: 177px;
+  height: 519px;
+  border: 1px;
+  color: #716f6f;
+  background-color: #c4c4c41a;
+  text-align: center;
+}
+.game_start_main_elements_div1,
+.game_start_main_elements_div2,
+.game_start_main_elements_div3 {
+  margin-top: 15px;
+}
+.game_start_main_elements_div1_p,
+.game_start_main_elements_div2_p,
+.game_start_main_elements_div3_p {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.78px;
+  text-align: center;
+  color: #b4b1b1;
+}
+.game_start_main_gaming_you_div_p,
+.game_start_main_gaming_compputer_p {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.5px;
+  text-align: left;
+  color: #b4b1b1;
+  text-align: center;
+}
+
+.game_start_main_gaming_and {
+  margin-top: 70px;
+}
+.game_start_main_gaming_and_h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 117.19px;
+  text-align: center;
+  color: #c9d1d3;
+}
+.game_start_main_start {
+  display: flex;
+  justify-content: center;
+  margin-top: 69px;
+}
+.game_start_main_start_button {
+  width: 409px;
+  height: 83px;
+  border-radius: 60px;
+  opacity: 0px;
+  background: #0bd4a4;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35.16px;
+  text-align: center;
+  border: none;
+}
+.game_start_main_ansver {
+  float: inline-end;
+  width: 286px;
+  height: 900px;
+  background: #c4c4c41a;
+}
+@media screen and (max-width: 1000px) {
+  .game_start_main {
+    width: 100%;
+  }
+}
